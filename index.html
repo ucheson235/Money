@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./asset/logo-payme.png" />
+
+</head>
+<body>
+   
+        <!-- nav bar with buger icon and logo with button  -->
+      
+       
+            <header>
+       
+                <nav class="navbar">
+                  
+                  <div class="logo"><img src="./asset/logo-payme.png" alt=""></div>
+                  
+                  <div class="burger" onclick="toggleNav()">&#9776;</div>
+                  
+                  <ul class="nav-links" id="navLinks">
+                   
+                    <li><a href="#home">Product</a></li>
+                   
+                    <li><a href="#about">Company</a></li>
+                   
+                    <li><a href="#contact">Features</a></li>
+
+                    <li><a href="#home">Support</a></li>
+                   
+                    <li><a href="#about">About Us</a></li>
+                   
+                    <li><a href="#contact">Contact Us</a></li>
+                   
+                  </ul>
+                  <div class="div-btn">
+                    <button>LogIn</button>
+                    <button>Open Account</button>
+
+                  </div>
+                </nav>
+              </header>
+
+              <!-- hero section  -->
+              <div class="hero-box">
+                <div class="slider">
+                    <div class="overlay">
+                        <img id="slider-image" src="./asset/img1.jpg" alt="slider-image">
+                        <div class="overlay-text">
+                            <h1> Effortlessly manage <br />
+                                your financial destiny
+                            </h1>
+                            <p>
+                                experience seamless money management, achieve <br />
+                                your financial goals, and delve investment with <br />
+                                a quick and easy account opening-process
+                              </p>
+        
+                        </div>
+        
+                    </div>
+                    <button class="slider-btn" onclick="prevSlide()">  &#10094;  </button>
+                    <button class="slider-btn" onclick="nextSlide()"> &#10095;</button>
+        
+                </div>
+        
+            </div>
+
+            <!-- mid section  -->
+
+            <main>
+                <div class="main-card">
+                  <div class="main-card-text1">
+                    <h2>What is Payme?</h2>
+                    <p>
+                      Payme is a payment gateway for businesses <br />
+                      to accept payment from customers, either on a <br />
+                      recurring or one-time basis. Payme offers <br />
+                      an easter, faster and cheaper way for businesses <br />
+                      to get paid on their web and mobile applications using <br />
+                      convenient payment methods for customer with highest <br />
+                      success rates obtainable in nigeria
+                    </p>
+                    <button class="btn-login">Open Account</button>
+                  </div>
+                  <div class="main-card-img">
+                    <img src="./asset/hero-icon1.png" alt="" /> <br />
+                    
+                  </div>
+                </div>
+              </main>
+
+              <!-- card sections  -->
+              <div class="middle-section">
+                <h1>How can you collect payments?</h1>
+                <div class="payment-card">
+                  <div class="payment">
+                    <div class="payment-img">
+                        <img src="./asset/web-sdk.svg" alt="" />
+                    </div>
+                    <h2>Web SDK</h2>
+                    <p>
+                      You can collect payments from your customers via cards and account
+                      transfers on your web platform by easily integrating our web SDK.
+                    </p>
+                  </div>
+                  <div class="payment">
+                   <div class="payment-img">
+                    <img
+                    src="./asset/mobile-sdk (1).svg"
+                    alt=""
+                  />
+
+                   </div>
+                    <h2>Mobile SDK</h2>
+                    <p>
+                      Payme's mobile SDK allows you to receive card and account transfer
+                      payments from your customers in-app.
+                    </p>
+                  </div>
+                  <div class="payment">
+                    <div class="payment-img">
+                        <img src="./asset/api.svg" alt="">
+                    </div>
+                    <h2>API</h2>
+                    <p>
+                      Our well documented APIs provides you with all you need to build
+                      your custom projects and products.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- footer -->
+              <footer>
+                <div class="footer-div">
+                  <div class="footer-div1">
+                    <h2>Product</h2>
+                    <h3>Pricing</h3>
+                    <h3>Frequently Ask Questions</h3>
+                    <h3>Contact</h3>
+                    <h3>Terms Of Services</h3>
+                    <h3>Privacy Policies</h3>
+                    <h3>Dispute Resolution</h3>
+                    <h3>Referral Terms and Condition</h3>
+          
+                  </div>
+                  <div class="footer-div2">
+                    <h2>Contact</h2>
+                    <h3>41 Lagos Ava Abuja Nigeria</h3>
+                    <h3>support@payme.com</h3>
+          
+                  </div>
+                  <div class="footer-div3">
+                    <h2>Community</h2>
+                    <h3>Stay Excited, Subscribe to our <br> Newsletter</h3>
+                    <input type="email" placeholder="Your Email">
+          
+                  </div>
+          
+                </div>
+              
+              </footer>
+        
+               
+              
+  
+    
+
+
+    <script src="./app.js"></script>
+</body>
+</html>

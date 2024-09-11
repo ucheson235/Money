@@ -213,16 +213,16 @@
  .payment{
     box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2),
                 0 0.375rem 1.25rem 0 rgba(0,0,0,0.19);
-    width: 200px;
+    width: 300px;
     height: 500px;
     text-align: center;
     border-radius: 1rem;
-    padding: 4rem;
+    padding: 3rem;
     margin-top: 10rem;
  }
 
  .payment-img {
-    width: 50px;
+    width: 100px;
  }
 
  .payment-img img{

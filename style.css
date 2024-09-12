@@ -298,6 +298,14 @@
       
     }
 
+    .logo {
+       width: 70px;
+    }
+
+    .logo img {
+      width: 100%;
+    }
+
     
   
     .burger {
